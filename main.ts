@@ -4,9 +4,10 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// First draft of the entry line (revised in a later pass).
+// Revised final entry line: sharper punch, stronger wince-and-laugh, same
+// terse release-note register ("auto-played", "unprompted").
 const ENTRY =
-  "v3.1.0: fixed a bug where entering a room wiped the short-term memory cache of why you walked in.";
+  "v2.7.4: fixed a bug where the brain auto-played your most embarrassing moment from 2009 at 2am, unprompted.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });

@@ -1,0 +1,1 @@
+v2.7.4: fixed a bug where the brain auto-played your most embarrassing moment from 2009 at 2am, unprompted.
